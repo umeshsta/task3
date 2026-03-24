@@ -33,9 +33,9 @@
     background-size: cover;
     background-position: center;
     animation-name: move;
-    animation-duration: 1s;
+    animation-duration: 5s;
     animation-iteration-count:infinite;
-    animation-direction: alternate-reverse;
+    /* animation-direction: alternate-reverse; */
     overflow: hidden;
 }
 
