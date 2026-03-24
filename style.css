@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    border: 20px solid rgb(222, 119, 8);
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    align-items: end;
+    justify-content: center;
+    background-image: url(img/road.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* transform: rotate(10deg); */
+    
+}
+.bus{
+    border: 5px solid black;
+    width: 500px;
+    height: 500px;
+    left: 620px;
+    gap: 178px;
+    /* display: flex; */
+    position: absolute;
+    background-image: url(img/buss-removebg-preview.png) ;
+    /* justify-content: space-around; */
+    /* align-items:center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+    overflow: hidden;
+}
+
+/* @keyframes move{
+    0%{
+        transform: translateY(-50%) scale(1) translateY(0);
+        
+
+    }
+    
+    100%{
+        transform: translateY(50%) scale(1.02) translate(-5PX);
+        
+    }
+    
+} */
+@keyframes move {
+    0%{
+        transform:translateY(0px) scale(1,1);
+    }
+    /* 50%{
+        transform: translate(0,-200px) scale(2,2);
+    } */
+    100%{
+        /* transform: ; */
+        transform:translate(0,-280px) scale(0.1,0.1);
+    }
+}
+
+
