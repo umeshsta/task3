@@ -17,13 +17,15 @@
     
 }
 .bus{
-    border: 5px solid black;
+    /* border: 5px solid black; */
     width: 500px;
     height: 500px;
-    left: 35vw;
+    left: 32vw;
+    border-top: 5px;
     gap: 178px;
-    /* display: flex; */
+    display: flex;
     position: absolute;
+    transform-origin: center;
     background-image: url(img/buss-removebg-preview.png) ;
     /* justify-content: space-around; */
     /* align-items:center; */
@@ -59,7 +61,7 @@
     } */
     100%{
         /* transform: ; */
-        transform:translate(0,-280px) scale(0.1,0.1);
+        transform:translate(0,-200px) scale(0.1,0.1);
     }
 }
 
